@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: "Inria Serif", serif;
     background-color: #ffffff;
+    font-size: 20px;
 }
 
 .container {
@@ -9,7 +10,6 @@ body {
     height: 100vh;
 }
 
-/* SIDEBAR */
 .sidebar {
     width: 280px;
     background-color: #064D3F;
@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-    font-size: 40px;
+    font-size: 100px;
     text-align: center;
     margin-top: 20px;
 }
@@ -28,14 +28,15 @@ body {
 .sidebar h1 {
     text-align: center;
     font-weight: normal;
-    line-height: 1.3;
-    margin: 10px 0;
+    line-height: 2.5;
+    margin: 150px 0;
 }
 
 .authors {
     background-color: #B2DFDA;
     color: #282B2A;
-    padding: 20px;
+    padding: 100px;
+    width: 150px;
 }
 
 .authors h2 {
@@ -54,15 +55,13 @@ body {
     font-size: 14px;
 }
 
-/* MAIN */
 .main {
     flex: 1;
     background-color: #C9D6D6;
     padding: 20px;
-    position: relative;
+    position: relative
 }
 
-/* TOPBAR */
 .topbar {
     background-color: #3d3d3d;
     padding: 15px;
@@ -85,18 +84,17 @@ body {
     cursor: pointer;
 }
 
-/* MESSAGE */
 .message {
     text-align: center;
     color: #2f6f63;
 }
 
-/* BOOKS */
+
 .books {
     margin-left: 40px;
 }
 
-/* FILTER */
+
 .filter {
     margin-top: 20px;
     display: flex;
@@ -111,7 +109,6 @@ body {
     padding: 8px 15px;
 }
 
-/* BOTTOM */
 .bottom {
     position: absolute;
     bottom: 20px;
